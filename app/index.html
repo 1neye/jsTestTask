@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>1) Write a function to find the minimum value in the following array:
+    [2,4,1,-5,54,32,14] →
+    <button onClick='minNum(arr)'>Click me</button>
+</div>
+
+<div>
+    2) Map to objects </br>
+    You have an array of user objects, each one has name, surname and id.</br>
+    Write the code to create another array from it, of objects with id and fullName, where fullName is generated from
+    name and surname.</br>
+
+    Usage example:</br>
+
+    let users = [</br>
+    { name: "John", surname: "Smith", id: 1 },</br>
+    { name: "Pete", surname: "Hunt", id: 2 },</br>
+    { name: "Mary", surname: "Key", id: 3 }</br>
+    ];</br>
+
+    /* ... your code ... */</br>
+
+    /*</br>
+    usersMapped = [</br>
+    { fullName: "John Smith", id: 1 },</br>
+    { fullName: "Pete Hunt", id: 2 },</br>
+    { fullName: "Mary Key", id: 3 }</br>
+    ]</br>
+    */</br>
+
+    Click here and check <strong>console (F12)</strong> →
+    <button onClick="mapFunc(users)">Click me</button>
+</div>
+
+<div>3) Create an calculator</br>
+    Create a constructor function Calculator that creates “extendable” calculator objects.</br>
+    Implement the method calculate(str) that takes a string like "1 + 2" in the format “NUMBER operator NUMBER”
+    (space-delimited) and returns the result. Should understand plus + and minus -.</br>
+
+    Usage example:</br>
+
+    let calc = new Calculator;</br>
+
+    alert( calc.calculate("3 + 7") ); // 10 →
+    <button onClick="Calculator('1+2')">Click me</button>
+</div>
+</body>
+<script src = 'js/core.js'></script>
+
+</html>
